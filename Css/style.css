@@ -51,7 +51,13 @@ th, td {
     text-align: left;               /* Alinha o texto à esquerda */
 }
 
-/* 3. Estilização exclusiva do cabeçalho */
+section h2 {
+    color: #333333ad;          /* Altera a cor do texto */
+    font-size: 28px;         /* Altera o tamanho da fonte */
+    font-family: Arial, sans-serif; /* Altera o tipo da fonte */
+    text-align: center;      /* Alinha o título no centro da página */
+    text-transform: uppercase; /* Deixa todo o texto em letras maiúsculas */
+}
 th {
     background-color: #4CAF50;      /* Cor de fundo verde para o topo */
     color: white;                   /* Texto branco */
