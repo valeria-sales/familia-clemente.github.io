@@ -1,13 +1,4 @@
-
-h1 {
-    color: #333333;          /* Altera a cor do texto */
-    font-size: 32px;         /* Altera o tamanho da fonte */
-    font-family: Arial, sans-serif; /* Altera o tipo da fonte */
-    text-align: center;      /* Alinha o título no centro da página */
-    text-transform: uppercase; /* Deixa todo o texto em letras maiúsculas */
-}
-
-
+style
 body{
     font-family: Arial, sans-serif;
     margin: 20px;
