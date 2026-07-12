@@ -36,7 +36,27 @@ img{
     margin: auto;
     border-radius: 10px;
 }
+/* 1. Alvo na tabela inteira */
+table {
+    width: 100%;                    /* Faz a tabela ocupar toda a largura disponível */
+    border-collapse: collapse;      /* CRUCIAL: Elimina o espaço duplo entre as bordas */
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
 
+/* 2. Alvo nas células de título e de conteúdo */
+th, td {
+    border: 1px solid #ddd;         /* Adiciona uma borda fina e cinza */
+    padding: 12px;                  /* Dá espaçamento interno para o texto respirar */
+    text-align: left;               /* Alinha o texto à esquerda */
+}
+
+/* 3. Estilização exclusiva do cabeçalho */
+th {
+    background-color: #4CAF50;      /* Cor de fundo verde para o topo */
+    color: white;                   /* Texto branco */
+    font-weight: bold;
+}
 table{
     width: 100%;
     border-collapse: collapse;
@@ -54,3 +74,10 @@ th{
     color: white;
 }
 </style>
+h1 {
+    color: #333333f9;          /* Altera a cor do texto */
+    font-size: 32px;         /* Altera o tamanho da fonte */
+    font-family: Arial, sans-serif; /* Altera o tipo da fonte */
+    text-align: center;      /* Alinha o título no centro da página */
+    text-transform: uppercase; /* Deixa todo o texto em letras maiúsculas */
+}
